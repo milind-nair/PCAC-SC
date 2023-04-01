@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-contract kasol {
+contract ImageContract {
     address public patient;
     string public imagedescription;
     string patientimagehash;
