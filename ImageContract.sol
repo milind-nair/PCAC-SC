@@ -10,9 +10,9 @@ contract ImageContract {
     mapping(address => string) public imageHashes;
 
     constructor() {
-        imagedescription = "Photo of an Unemployed Guy";
+        imagedescription = "Brain Image";
         patient = msg.sender;
-        patientimagehash = "QmSnVAuUz2dp4StPrAoMPVi3Bpt2d24Joch3jTfqA71rvS";
+        patientimagehash = "QmWDM3fMZUe9qxpgokkSeLvAmARqB6Cg4PczCUh3RKW3LQ";
     }
 
     modifier Onlypatient() {
